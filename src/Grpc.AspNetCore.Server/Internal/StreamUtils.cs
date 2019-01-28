@@ -96,7 +96,7 @@ namespace Grpc.AspNetCore.Server.Internal
             return true;
         }
 
-        private static void EncodeMessageLength(int messageLength, Span<byte> dest)
+        public static void EncodeMessageLength(int messageLength, Span<byte> dest)
         {
             if (dest.Length < MessageDelimiterSize)
             {

@@ -59,11 +59,11 @@ namespace FunctionalTestsWebsite
                 return next();
             });
 
-            app.UseEndpointRouting(builder =>
+            app.UseRouting(routes =>
             {
-                builder.MapGrpcService<ChatterService>();
-                builder.MapGrpcService<CounterService>();
-                builder.MapGrpcService<GreeterService>();
+                routes.MapGrpcService<ChatterService>();
+                routes.MapGrpcService<CounterService>();
+                routes.MapGrpcService<GreeterService>();
             });
         }
     }
