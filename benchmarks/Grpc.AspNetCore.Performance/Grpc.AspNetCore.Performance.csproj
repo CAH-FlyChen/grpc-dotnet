@@ -17,9 +17,9 @@
 
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
 
-    <PackageReference Include="BenchmarkDotNet" Version="0.11.3" />
-    <PackageReference Include="Google.Protobuf" Version="3.6.1" />
-    <PackageReference Include="Grpc.Tools" Version="1.17.0-pre3" />
+    <PackageReference Include="BenchmarkDotNet" Version="$(BenchmarkDotNetPackageVersion)" />
+    <PackageReference Include="Google.Protobuf" Version="$(GoogleProtobufPackageVersion)" />
+    <PackageReference Include="Grpc.Tools" Version="$(GrpcToolsPackageVersion)" />
   </ItemGroup>
 
 </Project>
