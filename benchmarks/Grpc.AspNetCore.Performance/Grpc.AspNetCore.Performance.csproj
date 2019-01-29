@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Grpc.AspNetCore.Server\Grpc.AspNetCore.Server.csproj" />
-    <ProjectReference Include="..\..\src\Grpc.Core.Api\Grpc.Core.Api.csproj" />
   </ItemGroup>
 
   <ItemGroup>
